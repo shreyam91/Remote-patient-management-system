@@ -46,6 +46,10 @@ export default function Home() {
           <h2 className='h2'>100%</h2>
           <h4 className='h4'>Patient Satisfaction</h4>
         </div>
+        <div> 
+          <h2 className='h2'>200%</h2>
+          <h4 className='h4'>Patient Satisfaction</h4>
+        </div>
       </div>    
 
       {/* container left side  */}
