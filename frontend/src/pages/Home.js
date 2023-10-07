@@ -49,6 +49,9 @@ export default function Home() {
         <div> 
           <h2 className='h2'>200%</h2>
           <h4 className='h4'>Patient Satisfaction</h4>
+        </div><div> 
+          <h2 className='h2'>200%</h2>
+          <h4 className='h4'>Patient Satisfaction</h4>
         </div>
       </div>    
 
