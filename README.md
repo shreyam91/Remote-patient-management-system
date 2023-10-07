@@ -3,7 +3,7 @@
 
 1.Fork the repository: Forking creates a copy of the original repository in your GitHub account. You can do this by clicking the “Fork” button on the top right corner of the repository page.
 
-2.Clone the forked repository: Cloning downloads a copy of the forked repository to your local machine. You can do this by running git clone <forked-repo-url> in your terminal.
+2.Clone the forked repository: Cloning downloads a copy of the forked repository to your local machine. You can run git clone <forked-repo-url> in your terminal.
 
 3.Create a new branch: Create a new branch for your changes using git checkout -b <branch-name>.
 
@@ -19,8 +19,8 @@
 
 
                             How to install a project in your system
-a.open project in any editor of your choice 
-b.open terminal and type cd frontend or backend
-c.npm i to install node-modules package 
-d.npm run start for frontend 
-e.npm run dev for backend 
+1. Open the project in any editor of your choice 
+2. open terminal and type cd frontend or backend
+3. npm i to install node-modules package 
+4. npm run start for frontend 
+5. npm run dev for backend 
