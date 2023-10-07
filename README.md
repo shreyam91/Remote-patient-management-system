@@ -1,5 +1,6 @@
 # Remote-patient-management-system
 
+
 1.Fork the repository: Forking creates a copy of the original repository in your GitHub account. You can do this by clicking the “Fork” button on the top right corner of the repository page.
 
 2.Clone the forked repository: Cloning downloads a copy of the forked repository to your local machine. You can do this by running git clone <forked-repo-url> in your terminal.
@@ -15,3 +16,11 @@
 7.Create a pull request: Go to the original repository page and click on “New pull request”. Select your forked repository and branch, and click on “Create pull request”.
 
 8.Review and merge: The owner of the original repository will review your pull request and merge it if everything looks good.
+
+
+                            How to install a project in your system
+a.open project in any editor of your choice 
+b.open terminal and type cd frontend or backend
+c.npm i to install node-modules package 
+d.npm run start for frontend 
+e.npm run dev for backend 
