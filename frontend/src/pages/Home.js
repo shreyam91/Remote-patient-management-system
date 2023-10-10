@@ -107,7 +107,7 @@ export default function Home() {
          
                   {/* find a doctor  3 */}
                   <div className='flex-items-center justfy-center'>
-        <img src={icon03} alt='img1' />
+        {/* <img src={icon03} alt='img1' /> */}
       </div>
       <div className='mt-[30px]'>
       <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Book Appointment</h2>
@@ -128,7 +128,7 @@ export default function Home() {
       <div className='container'>
         {/* about img  */}
         <div>
-          <img src={about} alt='img1' />
+          {/* <img src={about} alt='img1' /> */}
         </div>
         <div>
           <img src={aboutcard} alt='img1' />
@@ -204,10 +204,10 @@ export default function Home() {
       <div className='container'>
         {/* about img  */}
         <div>
-          <img src={featureimg} alt='img1' />
+          {/* <img src={featureimg} alt='img1' /> */}
         </div>
         <div>
-          <img src={featurecard} alt='img1' />
+          {/* <img src={featurecard} alt='img1' /> */}
         </div>
         {/* about content  */}
         <div className='content'>
@@ -300,7 +300,7 @@ export default function Home() {
 {/* <!--Section: FAQ--> */}
 
       {/* testimonials  */}
-      <section>
+      <section className='container'>
   <div class="row d-flex justify-content-center">
     <div class="col-md-10 col-xl-8 text-center">
       <h3 class="mb-4">Testimonials</h3>
