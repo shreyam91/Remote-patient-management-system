@@ -53,9 +53,9 @@ export default function Home() {
       </div>    
 
       {/* container left side  */}
-      <div className='container_left'>
+      {/* <div className='container_left'>
         {/* hero section  */}
-        <div className='img1'> 
+        {/* <div className='img1'> 
           <img src={heroimg01} alt='img1' />
         </div>
         <div className='img2'> 
@@ -64,7 +64,7 @@ export default function Home() {
         <div className='img3'> 
           <img src={heroimg03} alt='img3' />
         </div>
-      </div>
+      </div>  */}
     </section>
 
     {/*  Next section  */}
