@@ -43,7 +43,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleStickyHeader);
   });
   return (
-    <header className="header flex items-center">
+    <header className="container">
       {/* <div className="container"> */}
         {/* LOGO  */}
         {/* <div>
@@ -77,7 +77,7 @@ const Header = () => {
             {/* <span className="navbar-toggler-icon"></span> */}
           {/* </button> */}
 
-          <div className="collapse navbar-collapse">
+          <div className="collapse navbar-collapse justify-content-end">
             <ul className="navbar-nav mr-auto">
                {navLinks.map((link, index) => (
               <li className="nav-item"key={index +'navbar'}>

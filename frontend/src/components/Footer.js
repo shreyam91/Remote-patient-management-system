@@ -28,14 +28,14 @@ const quickLinks01=[
 const Footer = () => {
   const year = new Date().getFullYear()
   return (
-    <footer>
+    <footer className='text-center text-lg-start text-muted'> 
       <div className='container'>
-        <img src={logo} alt='' />
-        <p>Copyright &copy; {year} developed by Developer all rights reserved.</p>
+        {/* <img src={logo} alt='' /> */}
+        <p className='text-center'>Copyright &copy; {year} developed by Developer all rights reserved.</p>
 
-        <h2>Quick links</h2>
-        <ul>
-        {quickLinks01.map((item,index)=> (<li key={index}><Link to={item.path}>{item.display}</Link></li>))}</ul>
+        {/* <h2>Quick links</h2> */}
+        {/* <ul>
+        {quickLinks01.map((item,index)=> (<li key={index}><Link to={item.path}>{item.display}</Link></li>))}</ul> */}
       </div>
     </footer>
   )
