@@ -49,16 +49,13 @@ export default function Home() {
         <div> 
           <h2 className='h2'>200%</h2>
           <h4 className='h4'>Patient Satisfaction</h4>
-        </div><div> 
-          <h2 className='h2'>200%</h2>
-          <h4 className='h4'>Patient Satisfaction</h4>
         </div>
       </div>    
 
       {/* container left side  */}
-      <div className='container_left'>
+      {/* <div className='container_left'>
         {/* hero section  */}
-        <div className='img1'> 
+        {/* <div className='img1'> 
           <img src={heroimg01} alt='img1' />
         </div>
         <div className='img2'> 
@@ -67,7 +64,7 @@ export default function Home() {
         <div className='img3'> 
           <img src={heroimg03} alt='img3' />
         </div>
-      </div>
+      </div>  */}
     </section>
 
     {/*  Next section  */}
@@ -110,7 +107,7 @@ export default function Home() {
          
                   {/* find a doctor  3 */}
                   <div className='flex-items-center justfy-center'>
-        <img src={icon03} alt='img1' />
+        {/* <img src={icon03} alt='img1' /> */}
       </div>
       <div className='mt-[30px]'>
       <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Book Appointment</h2>
@@ -131,7 +128,7 @@ export default function Home() {
       <div className='container'>
         {/* about img  */}
         <div>
-          <img src={about} alt='img1' />
+          {/* <img src={about} alt='img1' /> */}
         </div>
         <div>
           <img src={aboutcard} alt='img1' />
@@ -207,10 +204,10 @@ export default function Home() {
       <div className='container'>
         {/* about img  */}
         <div>
-          <img src={featureimg} alt='img1' />
+          {/* <img src={featureimg} alt='img1' /> */}
         </div>
         <div>
-          <img src={featurecard} alt='img1' />
+          {/* <img src={featurecard} alt='img1' /> */}
         </div>
         {/* about content  */}
         <div className='content'>
@@ -303,7 +300,7 @@ export default function Home() {
 {/* <!--Section: FAQ--> */}
 
       {/* testimonials  */}
-      <section>
+      <section className='container'>
   <div class="row d-flex justify-content-center">
     <div class="col-md-10 col-xl-8 text-center">
       <h3 class="mb-4">Testimonials</h3>
