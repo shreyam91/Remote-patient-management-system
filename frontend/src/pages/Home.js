@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div> 
           <h2 className='h2'>10+</h2>
-          <h4 className='h4'>Doctor Available on Portal</h4>
+          <h4 className='h4'>Doctor Available on our Portal</h4>
         </div>
         <div> 
           <h2 className='h2'>100%</h2>
@@ -111,6 +111,15 @@ export default function Home() {
         <img src={icon03} alt='img1' />
       </div>
       <div className='mt-[30px]'>
+      <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Book Appointment</h2>
+      
+      <h4 className='text-center'>World-class care for everyone. Our Patient Monitoring system offers, unmatched expert health care.</h4>
+
+      <Link to='/doctor' className=''> 
+      <BsArrowRight/>
+      </Link>
+        </div>
+        <div className='mt-[30px]'>
       <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Book Appointment</h2>
       
       <h4 className='text-center'>World-class care for everyone. Our Patient Monitoring system offers, unmatched expert health care.</h4>
