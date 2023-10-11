@@ -7,6 +7,7 @@
 body{
   font-family: 'Mooli', sans-serif;
 /* font-family: 'PT Sans', sans-serif; */
+background-image: url('../src/assets/images/hero-bg.png'); 
 }
 li .active{
   color: blue;

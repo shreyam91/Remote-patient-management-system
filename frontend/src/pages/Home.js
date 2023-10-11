@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div> 
           <h2 className='h2'>10+</h2>
-          <h4 className='h4'>Doctor Available on Portal</h4>
+          <h4 className='h4'>Doctor Available on our Portal</h4>
         </div>
         <div> 
           <h2 className='h2'>100%</h2>
@@ -69,6 +69,7 @@ export default function Home() {
 
     {/*  Next section  */}
     <section>
+      {/* arrange all items in the row and as well as in the card type.  */}
       <div className='container'>
         <div className='lg:w-[470px] mx-auto'>
       <h2 className='heading text-center'>Providing the best medical Services</h2>
@@ -107,9 +108,18 @@ export default function Home() {
          
                   {/* find a doctor  3 */}
                   <div className='flex-items-center justfy-center'>
-        {/* <img src={icon03} alt='img1' /> */}
+        <img src={icon03} alt='img1' />
       </div>
       <div className='mt-[30px]'>
+      <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Book Appointment</h2>
+      
+      <h4 className='text-center'>World-class care for everyone. Our Patient Monitoring system offers, unmatched expert health care.</h4>
+
+      <Link to='/doctor' className=''> 
+      <BsArrowRight/>
+      </Link>
+        </div>
+        <div className='mt-[30px]'>
       <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Book Appointment</h2>
       
       <h4 className='text-center'>World-class care for everyone. Our Patient Monitoring system offers, unmatched expert health care.</h4>
@@ -124,26 +134,26 @@ export default function Home() {
     </section>
 
       {/* About section  */}
-      <section>
+      {/* <section>
       <div className='container'>
         {/* about img  */}
         <div>
           {/* <img src={about} alt='img1' /> */}
-        </div>
+        {/* </div>
         <div>
           <img src={aboutcard} alt='img1' />
-        </div>
+        </div> */}
         {/* about content  */}
-        <div className='content'>
+         {/* <div className='content'>
           <h2> Proud to be the nationn best </h2>
           <h5> for 30 years in a row lorem ipsum...........</h5>
           <h5> for 30 years in a row lorem ipsum...........</h5>
           <Link to='/'>
             <button className='btn btn-primary'>Learn More</button>
           </Link>
-        </div>
+        </div> */}
       </div>
-      </section>
+      {/* </section>  */}
 
       {/* Service Section  */}
       {/* <section>
@@ -200,8 +210,8 @@ export default function Home() {
       </section> */}
 
       {/* Feature Section */}
-      <section>
-      <div className='container'>
+      {/* <section>
+      <div className='container'> */}
         {/* about img  */}
         <div>
           {/* <img src={featureimg} alt='img1' /> */}
@@ -210,7 +220,7 @@ export default function Home() {
           {/* <img src={featurecard} alt='img1' /> */}
         </div>
         {/* about content  */}
-        <div className='content'>
+        {/* <div className='content'>
           <h2> Proud to be the nationn best </h2>
           <h5> for 30 years in a row lorem ipsum...........</h5>
           <h5> for 30 years in a row lorem ipsum...........</h5>
@@ -219,7 +229,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      </section>
+      </section> */}
 
       {/* Doctor  */}
       {/* <section>
@@ -232,6 +242,7 @@ export default function Home() {
       {/* FAQ */}
       {/* <!--Section: FAQ--> */}
 <section>
+  {/* make this section like card like next or below section check code from the section and add it to this section.  */}
   <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
   <p class="text-center mb-5">
     Find the answers for the most frequently asked questions below
@@ -301,6 +312,9 @@ export default function Home() {
 
       {/* testimonials  */}
       <section className='container'>
+
+      
+
   <div class="row d-flex justify-content-center">
     <div class="col-md-10 col-xl-8 text-center">
       <h3 class="mb-4">Testimonials</h3>
@@ -311,13 +325,45 @@ export default function Home() {
       </p>
     </div>
   </div>
+          {/* below code snippet is used to display the testimonials section in card from.  */}
+  <div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Ramesh</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="">Heart Patient</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Renuka</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="">Neuro Patient</a>
+      </div>
+    </div>
+  </div>
 
-  <div class="row text-center">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Bhaubali</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        {/* make a star in place of below link or name. 👇🏻👇🏻👇🏻*/}
+        {/* <a href="#" class="">Cardio Patient</a> */}
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* <div class="row text-center">
     <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
+      <div class="d-flex justify-content-center mb-4"> */}
         {/* <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
           class="rounded-circle shadow-1-strong" width="150" height="150" /> */}
-      </div>
+      {/* </div>
       <h5 class="mb-3">Maria Smantha</h5>
       <h6 class="text-primary mb-3">Web Developer</h6>
       <p class="px-xl-3">
@@ -344,10 +390,10 @@ export default function Home() {
       </ul>
     </div>
     <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
+      <div class="d-flex justify-content-center mb-4"> */}
         {/* <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
           class="rounded-circle shadow-1-strong" width="150" height="150" /> */}
-      </div>
+      {/* </div>
       <h5 class="mb-3">Lisa Cudrow</h5>
       <h6 class="text-primary mb-3">Graphic Designer</h6>
       <p class="px-xl-3">
@@ -373,10 +419,10 @@ export default function Home() {
       </ul>
     </div>
     <div class="col-md-4 mb-0">
-      <div class="d-flex justify-content-center mb-4">
+      <div class="d-flex justify-content-center mb-4"> */}
         {/* <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
           class="rounded-circle shadow-1-strong" width="150" height="150" /> */}
-      </div>
+      {/* </div>
       <h5 class="mb-3">John Smith</h5>
       <h6 class="text-primary mb-3">Marketing Specialist</h6>
       <p class="px-xl-3">
@@ -401,7 +447,7 @@ export default function Home() {
         </li>
       </ul>
     </div>
-  </div>
+  </div> */}
 </section>
 
     </>
