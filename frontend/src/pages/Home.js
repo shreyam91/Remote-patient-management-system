@@ -21,7 +21,7 @@ import {BsArrowRight} from 'react-icons/bs'
 export default function Home() {
   return (<>
     {/* // hero section  */}
-    <section className='hero_section'>
+    <section className='container hero_section'>
 
       {/* container right side  */}
       <div className='container_right'>
