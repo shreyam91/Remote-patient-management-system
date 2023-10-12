@@ -11,9 +11,9 @@ const Login = () => {
     setFormData({ ... formData, [e.target.name]: e.target.value})
   }
   return (
-    <form>
+    <form className='container aligin-items-center '>
   {/* <!-- Email input --> */}
-  <div class="form-outline mb-4">
+  <div className=" form-outline mb-4">
     <input type="email" placeholder='Enter your email' name='email' value={formData.email} onChange={handleInputChange} required />
   </div>
 
@@ -23,7 +23,7 @@ const Login = () => {
   </div>
 
   {/* <!-- Submit button --> */}
-  <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+  <button type="button" class=" btn btn-primary btn-block mb-4">Sign in</button>
 
   {/* <!-- Register buttons --> */}
   <div class="text-center">
