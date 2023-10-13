@@ -99,6 +99,8 @@ export default function Home() {
       </div>
       <div className='mt-[30px]'>
       <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Find a Location</h2>
+      <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Find a Location</h2>
+      <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'> Find a Location</h2>
       
       <h4 className='text-center'>World-class care for everyone. Our Patient Monitoring system offers, unmatched expert health care.</h4>
 
