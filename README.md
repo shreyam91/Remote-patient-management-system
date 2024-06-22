@@ -24,3 +24,4 @@
 3. npm i to install node-modules package 
 4. npm run start for frontend 
 5. npm run dev for backend 
+6.
